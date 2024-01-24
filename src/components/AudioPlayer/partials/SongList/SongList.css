@@ -1,0 +1,51 @@
+.songlist {
+	width: 95%;
+	border-bottom: rgba(0, 0, 0, 0.28) 2px solid;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	width: 23%;
+	height: 50px;
+	padding-left: 1rem;
+	border-right: white 1px solid;
+}
+
+td:nth-last-of-type(1) {
+	border-right: none;
+}
+
+.incons-td,
+.icons-td2 {
+	width: 100%;
+	display: flex;
+	justify-content: baseline;
+	align-items: center;
+	gap: 1rem;
+	border-bottom: 1px solid rgba(187, 180, 180, 0.491);
+	border-right: none;
+
+}
+
+.icons-td1 {
+	width: 10.4%;
+}
+
+.incons-td>svg,
+.icons-td2>svg {
+	font-size: 27px;
+}
+
+.title-table {
+	background: silver;
+}
+
+.song-info {
+	border-right: none;
+	border-bottom: 1px solid rgba(187, 180, 180, 0.491);
+}
+
+

@@ -1,0 +1,76 @@
+.audio-player {
+	margin-top: 50px;
+	width: 75%;
+	border: 1px solid white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 1rem;
+	background: rgb(222, 219, 219);
+	border-radius: 10px;
+}
+
+header {
+	margin-top: 2rem;
+	width: 95%;
+	border: 1px solid white;
+	background: linear-gradient(rgb(185, 178, 178), rgb(171, 165, 165));
+	border-radius: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.header-left,
+.header-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn,.sort-button {
+	margin: 0.5rem 1rem;
+	padding: 0.7rem 2rem 0.7rem 0.6rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: .5rem;
+	border-radius: 1rem;
+	border: 1px solid rgb(106, 104, 104);
+	font-size: large;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	cursor: pointer;
+}
+
+svg {
+	font-size: 20px;
+	cursor: pointer;
+	transition: .5s;
+}
+
+svg:hover {
+	transform: scale(1.4);
+}
+
+.search-container {
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.search-container>svg {
+	cursor: pointer;
+	position: relative;
+	left: 10%;
+	background: #F0F0F0;
+}
+
+.search-input{
+	padding: 1rem 0 1rem 1.5rem;
+	margin: 0rem 1rem 0 0;
+	border-radius: 2rem;
+	border: 1px solid rgb(106, 104, 104);
+	background: #F0F0F0;
+}
